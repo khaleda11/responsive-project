@@ -161,4 +161,86 @@
       
       .point{
            padding-left: 10px;
-      } 
+      }
+      
+       /* --------------message section-------------------------  */
+
+
+.message{
+          float: right;
+          color: rgb(221, 33, 64);
+          font-size: 18px;
+          font-weight: bold;
+          margin-right:10%;
+          
+       }
+
+          /* --------------last section start--------------------  */
+
+ .last-section{
+          margin-top: 10%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      
+      }
+      .last-left-part{
+
+              width: 50%;
+              margin-left: 5%;
+          
+            
+      }
+       .last-left-part img{
+             width: 70%;
+       }
+       .last-right-part{
+           width: 50%;
+           margin-right: 10%;
+      
+       }
+       .last-right-part p{
+           font-weight: 700;
+          
+             
+       }
+
+       /* --------------footer section start--------------------  */
+
+   footer{
+        margin-top:10%;
+        background-color: rgb(3, 3, 34) ;
+        height: 150px;
+        color: white;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+     } 
+     .footer-text{
+         padding-top: 1px;
+         text-align: center;
+    
+    
+     }
+     .footer-text h4{
+         font-size: 18px;
+     }
+     .footer-text p{
+        margin-top: -7%;
+        font-size: small;
+        margin-bottom: -7%;
+     }
+     .footer-icon{
+    
+         align-items: center; 
+         justify-content:center;
+         
+    
+     }
+     .footer-icon .fa{
+        padding-left: 25px;
+        font-size: 20px;
+     }
+         
+         
