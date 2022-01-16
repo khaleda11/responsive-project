@@ -33,3 +33,58 @@
           font-weight: bold;
           font-size: 16px;
       }
+
+          /*--------------content section-------------*/
+          
+.content{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          column-gap:63px ;
+}
+
+.left-content{
+        width:652px ;
+        height:340px ;  
+        padding-left: 10px;
+    }
+
+
+.left-content p{
+         font-size:16px ;
+         font-weight:500;
+         padding-bottom: 10px;
+            
+}
+
+.link-btn{
+          color: whitesmoke;
+          padding: 8px 20px;
+          background-color: rgb(206, 36, 64);
+          border-radius:25px ;
+         
+    }
+    .link-btn .fa{
+        padding-left: 10px;
+    }
+    
+    .right-content{
+              width: 440px;
+              height: 414px;
+             
+    
+    }
+
+    #camera img{
+          padding: 10px; 
+           width: 90%;
+           background-color: lightpink;
+           border-radius: 40px;
+           cursor: pointer;
+           transition: 0.3s ease-in-out;
+          
+      
+      }
+      #camera :hover img{
+          transform: scale(1.5);
+      }
