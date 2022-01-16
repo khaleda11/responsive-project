@@ -263,6 +263,7 @@
                    }
                    
                    .navigation a{
+                             font-size: 16px;
                              display: block;
                              margin-top: -10px;
 
@@ -284,11 +285,16 @@
                               
                        }
                        .right-content{
-                                 margin-top: 15%;
-                                 width: 90%;
+                                 margin-top: 5%;
+                                 width: 100%;
+                       }
+
+                       #camera img{
+                             margin-left: 4%;
+                              width: 90%;
                        }
                      .logo-section{
-                               
+                               margin-top: -10%;
                                width: 100%;
                                height: 100%;
                                margin-right: 5%;
@@ -299,7 +305,7 @@
                      .logo img{
 
                               display: grid;
-                               width: 40%;
+                               width: 30%;
                                justify-content: center;
                                align-items: center;
                      }
@@ -353,7 +359,161 @@
                                width: 100%;
 
                      }
+                     .last-right-part h2{
+                              text-align: center;
+                     }
+
+                     .last-right-part p{
+                              text-align: center;
+                              margin-bottom: 7%;
+                     }
                                                  
          }
+
+         /* -------------------------------------
+         -----------Tablet Devices ---------- */
+
+
+         @media only screen and (min-width:577px) and (max-width:992px){
+
+          .container{
+                    width: 100%;
+
+           }
+          
+          header, .content{
+            display:grid;
+            grid-template-columns: repeat(1,1fr);
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+          }
+
+
+          header h3{
+                    text-align: center;
+          }
+          .navigation{
+                    display: flex;
+                    margin-left: 6%;
+
+          }
+
+          
+          .navigation a{
+               font-size:18px;      
+                  
+           }
+
+           .left-content{
+                    width: 100%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+          }
+
+          .left-content h1{
+                    font-size: 500;
+                    word-wrap: break-word;
+                    text-align: center;
+
+             }
+             .left-content p{ 
+                     font-size: 20px;
+                     width: 90%;
+                     text-align: center;
+                    margin-bottom: 10px;
+                    margin-bottom: 5%;
+                    
+             }
+             .link-btn{
+                       width: 30%;
+             }
+             .right-content{
+                       margin-top: 5%;
+                       width: 90%;
+             }
+             .right-content img{
+                       width: 50%;
+                       margin-bottom: 15%;
+                       margin-left: 4%;
+                       
+             }
+             .logo-section{
+                               
+                    width: 100%;
+                    height: 100%;
+                    margin-top: 10%;
+                    margin-left: -2%;
+                
+                  
+          }
+          .logo img{
+                    display: grid;
+                    width: 25%;
+          }
+          .popular-section{
+                    width: 100%;
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+
+          }
+          .title{
+                    text-align: center;
+                    margin-left: -5%;
+          }
+          .products-details{
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    margin-left: -6%;
+                   
+          }
+          .message{
+                    width: 100%;
+                   
+          }
+          .message p{
+                    font-size: 24px;
+                    float: right;
+                    margin-bottom: 10%;
+          }
+          .last-section{
+                    margin-top: 5%;
+                    width: 100%;
+                    display: grid;
+                    align-items: center;
+                   justify-content: center;
+                  
+
+          }
+          .last-left-part{
+                    
+                    width: 100%;
+
+          }
+          .last-left-part img{
+                    width: 80%;
+                    margin-left: 5%;
+          }
+
+          .last-right-part{
+                    margin-top: 5%;
+                    width: 100%;
+
+          }
+          .last-right-part h2{
+                    text-align:center ;
+
+          }
+          .last-right-part p{
+                    text-align: center;
+                    font-size: 18px;
+                    margin-bottom: 10%;
+          }
+
+
+  }
+
 
  
